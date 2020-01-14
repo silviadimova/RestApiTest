@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/main/resources/features"},
-        glue = {"src/main/java/com/restapi/stepDefinitions"},
+        features = {"src/test/resources/features"},
+        glue = {"src/test/java/com/restapi/stepDefinitions"},
         tags = {"@Acceptance"}
 )
 
