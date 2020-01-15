@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
         dryRun = true
 )
 
-@SuppressWarnings("unused")
 public class CucumberRunner {
     //unused
 }

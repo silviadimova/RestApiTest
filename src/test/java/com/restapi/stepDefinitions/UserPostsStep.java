@@ -1,7 +1,6 @@
 package com.restapi.stepDefinitions;
 
 import com.restapi.robots.UserPostsRobot;
-import com.restapi.utils.Urls;
 import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -10,7 +9,7 @@ import cucumber.api.java.en.When;
 
 public class UserPostsStep {
 
-    private UserPostsRobot robot = new UserPostsRobot(Urls.API_BASE_URL);
+    private UserPostsRobot robot = new UserPostsRobot("https://jsonplaceholder.typicode.com/");
 
     @After
     public void afterEachScenario() {

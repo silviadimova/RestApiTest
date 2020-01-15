@@ -1,8 +1,6 @@
 package com.restapi.robots;
 
 import com.restapi.models.UserPostPayload;
-import com.restapi.utils.ResponseFields;
-import com.restapi.utils.StatusCode;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -45,7 +43,7 @@ public class UserPostsRobot {
                 .get("users?id=" + userId)
                 .then()
                 .assertThat()
-                .statusCode(StatusCode.SUCCESS)
+                .statusCode(200)
                 .extract()
                 .body()
                 .jsonPath();
@@ -57,7 +55,7 @@ public class UserPostsRobot {
                 .get("posts?usersId=" + userId)
                 .then()
                 .assertThat()
-                .statusCode(StatusCode.SUCCESS)
+                .statusCode(200)
                 .extract()
                 .body()
                 .jsonPath();
@@ -72,28 +70,28 @@ public class UserPostsRobot {
                 .post("posts")
                 .then()
                 .assertThat()
-                .statusCode(StatusCode.CREATED)
+                .statusCode(201)
                 .extract()
                 .jsonPath();
     }
 
     public void canTheUserSeeHisEmail() {
-        String email = responseStructure.getString(ResponseFields.EMAIL);
+        String email = responseStructure.getString("email");
         assertFalse(email.isEmpty());
 
         System.out.println("User id = " + userId + ",email = " + email + "\n");
     }
 
     public void doesTheUserHaveValidPosts() {
-        List<UserPostPayload> posts = responseStructure.get("findAll{ it.userId == "+ userId +" && it.id >= 1 && it.id <= 100 }");
+        List<Object> posts = responseStructure.get("findAll{ it.userId == "+ userId +" && it.id >= 1 && it.id <= 100 }");
         assertFalse(posts.isEmpty());
 
         System.out.println("User id = " + userId + ", posts size = " + posts.size() + "\n");
     }
 
     public void doesTheUserSeeSuccessfulPostResult() {
-        int newPostId = responseStructure.getInt(ResponseFields.ID);
-        int newPostUserId = responseStructure.getInt(ResponseFields.USER_ID);
+        int newPostId = responseStructure.getInt("id");
+        int newPostUserId = responseStructure.getInt("userId");
         assertTrue(newPostId > 0);
         assertEquals(userId, newPostUserId);
 

@@ -4,19 +4,13 @@
     <list default="true" id="a5d71b79-ef4d-404a-84b4-7ca6b3cfe85a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/restapi/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/restapi/CucumberRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/restapi/models/UserPostPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/restapi/models/UserPostPayload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/restapi/robots/UserPostsRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/restapi/robots/UserPostsRobot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/restapi/stepDefinitions/UserPostsStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/restapi/stepDefinitions/UserPostsStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/restapi/utils/ResponseFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/restapi/utils/ResponseFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/restapi/utils/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/restapi/utils/StatusCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserPosts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserPosts.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/restapi/CucumberRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/restapi/CucumberRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/restapi/models/UserPostDataModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/restapi/utils/ResponseFields.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/restapi/utils/StatusCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/restapi/utils/Urls.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/restapi/robots/UserPostsRobot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/restapi/robots/UserPostsRobot.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/restapi/stepDefinitions/UserPostsStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/restapi/stepDefinitions/UserPostsStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/restapi/utils/ResponseFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/restapi/utils/ResponseFields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/restapi/utils/StatusCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/restapi/utils/StatusCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserPosts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/UserPosts.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,20 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3792">
-              <caret line="158" column="24" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/restapi/CucumberRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/UserPosts.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="168">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -64,27 +49,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/restapi/stepDefinitions/UserPostsStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+            <state relative-caret-position="240">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
                 <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-                <element signature="e#1080#1081#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1403#1404#0" expanded="true" />
-                <element signature="e#1461#1462#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1143#1144#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+                <element signature="e#1459#1460#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,24 +75,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/restapi/robots/UserPostsRobot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="1848">
+              <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/restapi/utils/ResponseFields.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -120,14 +91,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Cucumber feature" />
         <option value="Class" />
+        <option value="Cucumber feature" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cucumber-junit</find>
+      <find>https://jsonplaceholder.typicode.com</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,16 +109,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/restapi/CucumberRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/restapi/models/UserPostDataModel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/restapi/utils/ResponseFields.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/restapi/utils/Urls.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/restapi/models/UserPostDataModel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/restapi/models/UserPostPayload.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/restapi/utils/StatusCode.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/restapi/utils/ResponseFields.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/restapi/robots/UserPostsRobot.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/UserPosts.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/restapi/CucumberRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/restapi/stepDefinitions/UserPostsStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/restapi/robots/UserPostsRobot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/restapi/models/UserPostPayload.java" />
       </list>
     </option>
   </component>
@@ -183,7 +155,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,7 +204,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="restapi" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="robots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RestAssuredTest" type="b2602c69:ProjectViewProjectNode" />
@@ -245,12 +216,16 @@
             <path>
               <item name="RestAssuredTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RestAssuredTest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,8 +333,8 @@
       <list>
         <item itemvalue="Cucumber java.Scenario: User is able to make a new post" />
         <item itemvalue="Cucumber java.Scenario: User has valid posts" />
-        <item itemvalue="Cucumber java.Scenario: User sees his email" />
         <item itemvalue="Cucumber java.Feature: UserPosts" />
+        <item itemvalue="Cucumber java.Scenario: User sees his email" />
       </list>
     </recent_temporary>
   </component>
@@ -377,41 +352,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__UserPosts - 2020.01.15 at 00h 13m 18s.xml">
-      <configuration name="Feature: UserPosts" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__UserPosts - 2020.01.15 at 00h 14m 07s.xml">
-      <configuration name="Feature: UserPosts" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_is_able_to_make_a_new_post - 2020.01.15 at 00h 50m 35s.xml">
+    <history-entry file="Scenario__User_is_able_to_make_a_new_post - 2020.01.15 at 01h 27m 10s.xml">
       <configuration name="Scenario: User is able to make a new post" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_is_able_to_make_a_new_post - 2020.01.15 at 00h 52m 09s.xml">
-      <configuration name="Scenario: User is able to make a new post" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__UserPosts - 2020.01.15 at 00h 52m 36s.xml">
-      <configuration name="Feature: UserPosts" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__UserPosts - 2020.01.15 at 00h 56m 27s.xml">
-      <configuration name="Feature: UserPosts" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_is_able_to_make_a_new_post - 2020.01.15 at 01h 19m 46s.xml">
-      <configuration name="Scenario: User is able to make a new post" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_sees_his_email - 2020.01.15 at 01h 21m 47s.xml">
+    <history-entry file="Scenario__User_sees_his_email - 2020.01.15 at 15h 15m 07s.xml">
       <configuration name="Scenario: User sees his email" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_has_valid_posts - 2020.01.15 at 01h 27m 02s.xml">
+    <history-entry file="Scenario__User_sees_his_email - 2020.01.15 at 15h 15m 57s.xml">
+      <configuration name="Scenario: User sees his email" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__UserPosts - 2020.01.15 at 15h 16m 24s.xml">
+      <configuration name="Feature: UserPosts" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_has_valid_posts - 2020.01.15 at 15h 25m 34s.xml">
       <configuration name="Scenario: User has valid posts" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_is_able_to_make_a_new_post - 2020.01.15 at 01h 27m 10s.xml">
+    <history-entry file="Scenario__User_is_able_to_make_a_new_post - 2020.01.15 at 15h 47m 55s.xml">
+      <configuration name="Scenario: User is able to make a new post" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_is_able_to_make_a_new_post - 2020.01.15 at 15h 48m 43s.xml">
+      <configuration name="Scenario: User is able to make a new post" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_is_able_to_make_a_new_post - 2020.01.15 at 15h 50m 11s.xml">
+      <configuration name="Scenario: User is able to make a new post" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_is_able_to_make_a_new_post - 2020.01.15 at 16h 00m 31s.xml">
+      <configuration name="Scenario: User is able to make a new post" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_is_able_to_make_a_new_post - 2020.01.15 at 16h 01m 17s.xml">
       <configuration name="Scenario: User is able to make a new post" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="984" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23015873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,13 +396,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26812428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5420023" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2301496" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4993895" weight="0.5327963" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4993895" visible="true" weight="0.5132336" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993895" weight="0.29113925" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Flutter Performance" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -472,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3792">
-          <caret line="158" column="24" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar!/io/restassured/http/ContentType.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -486,86 +455,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/restapi/models/UserPostPayload.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/restapi/utils/Urls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="672">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/restapi/utils/StatusCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="35" />
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/restapi/utils/Urls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/restapi/utils/ResponseFields.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="38" />
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/restapi/models/UserPostPayload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/restapi/robots/UserPostsRobot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="1848">
+          <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/restapi/stepDefinitions/UserPostsStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        <state relative-caret-position="240">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
             <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/UserPosts.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/restapi/CucumberRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
