@@ -2,6 +2,7 @@ Feature: User posts (Read and Create)
 
   Scenario: User sees his email
     Given As a random User
+    When I get my profile
     Then I can see my email
 
   Scenario Outline: User has valid posts
@@ -12,7 +13,7 @@ Feature: User posts (Read and Create)
     Examples:
       | id |
       | 5  |
-      | 10 |
+      | 10  |
 
   Scenario: User is able to make a new post
     Given As a User with id equals 5
