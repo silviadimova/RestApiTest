@@ -22,8 +22,8 @@ public class UserPostsStep {
         robot.setRandomUserId(1, 10);
     }
 
-    @Given("^As a User with id equals (\\S+)$")
-    public void asAUserWithId(String id) {
+    @Given("^As a User with id equals (\\d+)$")
+    public void asAUserWithId(int id) {
         robot.setUserId(id);
     }
 
@@ -37,13 +37,23 @@ public class UserPostsStep {
         robot.getUserPosts();
     }
 
+    @When("^I make new post with (\\S+) and (\\S+)$")
+    public void iMakeNewPostWithTitleAndText(String title, String text) {
+        robot.makeNewPost(title, text);
+    }
+
     @Then("^I can see my email$")
     public void iCanSeeMyEmail() {
-        robot.canTheUserSeesHisEmail();
+        robot.canTheUserSeeHisEmail();
     }
 
     @Then("^I see some valid posts$")
     public void iSeeValidPosts() {
         robot.doesTheUserHaveValidPosts();
+    }
+
+    @Then("^I see successful post result$")
+    public void iSeeSuccessfulPostResult() {
+        robot.doesTheUserSeeSuccessfulPostResult();
     }
 }

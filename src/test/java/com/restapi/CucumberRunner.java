@@ -6,9 +6,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources/features"},
-        glue = {"src/test/java/com/restapi/stepDefinitions"},
-        tags = {"@Acceptance"}
+        features = { "src/test/resources/features" },
+        glue = { "src/test/java/com/restapi/stepDefinitions" },
+        tags = { "@acceptance, @smoke" },
+        plugin = { "pretty", "html:target/cucumber-html-report", "json:target/cucumber-json-report.json" },
+        dryRun = true
 )
 
 @SuppressWarnings("unused")

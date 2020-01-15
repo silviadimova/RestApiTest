@@ -4,6 +4,7 @@ import com.restapi.models.UserPostPayload;
 import com.restapi.utils.ResponseFields;
 import com.restapi.utils.StatusCode;
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 
 import java.util.List;
@@ -11,10 +12,12 @@ import java.util.Random;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertFalse;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 public class UserPostsRobot {
 
-    private String userId;
+    private int userId;
     private JsonPath responseStructure;
 
     public UserPostsRobot(String baseUrl) {
@@ -23,16 +26,17 @@ public class UserPostsRobot {
 
     public void clearResponseStructure() {
         responseStructure = null;
+
         System.out.println("Robot clears the test response structure\n");
     }
 
-    public void setUserId(String userId) {
+    public void setUserId(int userId) {
         this.userId = userId;
     }
 
     public void setRandomUserId(int min, int max) {
         Random rand = new Random();
-        userId = Integer.toString(rand.nextInt((max - min) + 1) + min);
+        userId = rand.nextInt((max - min) + 1) + min;
     }
 
     public void getUserProfile() {
@@ -59,15 +63,40 @@ public class UserPostsRobot {
                 .jsonPath();
     }
 
-    public void canTheUserSeesHisEmail() {
+    public void makeNewPost(String title, String text) {
+        UserPostPayload payload = new UserPostPayload(userId, title, text);
+        responseStructure = given()
+                .contentType(ContentType.JSON)
+                .when()
+                .body(payload.toString())
+                .post("posts")
+                .then()
+                .assertThat()
+                .statusCode(StatusCode.CREATED)
+                .extract()
+                .jsonPath();
+    }
+
+    public void canTheUserSeeHisEmail() {
         String email = responseStructure.getString(ResponseFields.EMAIL);
         assertFalse(email.isEmpty());
+
         System.out.println("User id = " + userId + ",email = " + email + "\n");
     }
 
     public void doesTheUserHaveValidPosts() {
         List<UserPostPayload> posts = responseStructure.get("findAll{ it.userId == "+ userId +" && it.id >= 1 && it.id <= 100 }");
         assertFalse(posts.isEmpty());
+
         System.out.println("User id = " + userId + ", posts size = " + posts.size() + "\n");
+    }
+
+    public void doesTheUserSeeSuccessfulPostResult() {
+        int newPostId = responseStructure.getInt(ResponseFields.ID);
+        int newPostUserId = responseStructure.getInt(ResponseFields.USER_ID);
+        assertTrue(newPostId > 0);
+        assertEquals(userId, newPostUserId);
+
+        System.out.println("User id = " + newPostUserId + ", new post id = " + newPostId + "\n");
     }
 }
